@@ -22,7 +22,7 @@ import shutil
 
 REPOROOT="/gpfs02/usatlas/webrepo/repo/grid"
 REGENCMD="createrepo -v ./"
-ARCHS=['i386','x86_64']
+ARCHS=['x86_64']
 PLATFORMS=['fedora','rhel']
 REPOS=['development','testing','production','external']
 USAGE="regen-repos.py [ REPONAME ]"
