@@ -24,7 +24,7 @@ REPOROOT="/gpfs02/usatlas/webrepo/repo/grid"
 REGENCMD="createrepo -v ./"
 ARCHS=['x86_64']
 PLATFORMS=['fedora','rhel']
-REPOS=['development','testing','production','external']
+REPOS=['development','testing','production']
 USAGE="regen-repos.py [ REPONAME ]"
 RELEASEMAP={ 'Fedora release 14 (Laughlin)' : ('fedora','14'),
              'Fedora release 16 (Verne)' : ('fedora','16'),
